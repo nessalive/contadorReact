@@ -1,0 +1,60 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.App{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  background: rgb(226, 118, 165);
+background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(156,148,233,1) 100%);
+background-size: 200% 200%;
+animation: colors 10s ease infinite;
+}
+@keyframes colors {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.title{
+  color: rgb(0, 0, 0);;
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.mostrar {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.interno {
+  display: flex;
+}
+
+
+.menos, .add, .zerar{
+  padding: 20px;
+  color: rgb(0, 0, 0);
+  border: none;
+  border: 2px dashed rgb(200, 80, 255);
+  outline: none;
+  cursor: pointer;
+  margin: 10px;
+  background: transparent;
+}
+
+

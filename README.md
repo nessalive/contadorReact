@@ -1,3 +1,3 @@
 # Contador feito em React
 
-[veja aqui](contadoreact.netlify.app)
+[veja aqui](https://contadoreact.netlify.app/)

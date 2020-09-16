@@ -4,9 +4,12 @@ import './index.css';
 
 const App = () =>{
     const [conta, setConta] = useState(0);
+    if (conta < 0){
+      setConta(0)
+    }
     return (
       <div className="App">
-        <h1 className="title">Contador</h1>
+        <h1 className="title">Contador React</h1>
         <h2 className="mostrar">{conta}</h2>
         <div className="interno">
           <button className="add" onClick={() => setConta(conta+1)}>+</button>
